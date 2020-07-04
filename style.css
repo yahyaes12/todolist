@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background: #74ebd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #acb6e5,
+    #74ebd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #acb6e5,
+    #74ebd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.title {
+  font-size: 5rem;
+  font-family: "Holtwood One SC", serif;
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+header,
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+
+.addinput,
+.addbtn {
+  outline: 0;
+  border: 0;
+  padding: 0.7rem;
+}
+.addinput {
+  padding-left: 1rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  min-width: 30%;
+  font-size: 1rem;
+}
+.addbtn {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #27ae60;
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+ul {
+  list-style: none;
+}
+.listbox {
+  
+min-width: 50%;
+}
+.item {
+  display: flex;
+  min-width: 50%;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  overflow: hidden;
+  margin: 1rem;
+  transition: all .3s ease-out;
+}
+.item li {
+  flex: 1;
+  padding: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+.item button {
+  padding: 1rem;
+  outline: none;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  color: white;
+  box-sizing: border-box;
+  transition: all .2s ease-out;
+}
+.btnmark {
+  background-color: #3498db;
+  
+}
+.btnmark:hover {
+  background: none;
+  color: #3498db;
+  border-left: 1px solid #3498db;
+}
+.btndlt {
+  background-color: #e74c3c;
+
+}
+.btndlt:hover {
+    background: none;
+    
+    color: #e74c3c;
+}
+
+.rm{
+  transform: translateY(8rem);
+  opacity: 0;
+}
+.en li{
+  background-color: #27ae60;
+  color: white;
+  
+}
+.en{
+  opacity: .7;
+}
+.filter{
+  padding: .7rem;
+  margin: 1rem;
+  outline: none;
+  border: none;
+}
+.filter option {
+  
+}
